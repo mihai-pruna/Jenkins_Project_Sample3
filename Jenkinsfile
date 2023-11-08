@@ -4,7 +4,7 @@ pipeline {
    environment {
        // Please update your own registry here
        REGISTRY = 'registry.hub.docker.com'
-       REGISTRY_IMAGE = "$REGISTRY/praslea/dockerapp"
+       REGISTRY_IMAGE = "$REGISTRY/mpruna/dockerapp"
        DOCKERFILE_PATH = 'Dockerfile'
        docker = '/usr/local/bin/docker'
 
