@@ -1,5 +1,5 @@
 pipeline {
-   agent any
+   agent { label master }
 
    environment {
        // Please update your own registry here
